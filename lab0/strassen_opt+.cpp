@@ -20,7 +20,7 @@ void SUB(double* mat1, double* mat2, double* mat, int col, int left, int right, 
     }
 }
 
-void MUL(double* mat1, double* mat2, double* mat, int m, int n, int k, int left1, int right1, int up1, int down1, int left2, int right2, int up2, int down2) {
+void MUL(double* mat1, double* mat2, double* mat, double *temp_mat, int m, int n, int k, int left1, int right1, int up1, int down1, int left2, int right2, int up2, int down2) {
     int m0 = right1 - left1, n0 = down1 - up1, k0 = down2 - up2;
     if(right1 - left1 <= 128 || up1 - down1 <= 128 || up2 - down2 <= 128) {
         for(int i = left1; i < right1; i++) {
@@ -30,6 +30,11 @@ void MUL(double* mat1, double* mat2, double* mat, int m, int n, int k, int left1
                 }
             }
         }
+    }
+    else {
+        MUL(mat1, mat2, mat, temp_mat, m, n, k, left1, right1/2, up1, down1/2, left2, right2/2, up2, down2/2);
+        MUL(mat1, mat2, temp_mat, mat, m, n, k, right1/2, right1, up1, down1/2, left2, right2/2, down2/2, down2);
+        ADD()
     }
 }
 
@@ -75,6 +80,6 @@ int main() {
     auto end = chrono::high_resolution_clock::now();
     auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
     cout << "Original Time: " << duration.count() << " microseconds\n" << endl;
-    test(mat1, mat2, temp_mat, m, n, k);
-    cout << cmp(temp_mat, mat, m, k) << endl;
+    // test(mat1, mat2, temp_mat, m, n, k);
+    // cout << cmp(temp_mat, mat, m, k) << endl;
 }
