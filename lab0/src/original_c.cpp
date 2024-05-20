@@ -1,3 +1,4 @@
+#define MATSIZE 128
 #include <iostream>
 #include <cstring>
 #include <stdlib.h>
@@ -57,7 +58,7 @@ void new_multiplication(double *mat1, double *mat2, double *mat, int m, int n, i
 int main() {
     int m, n, k;
     // scanf("%d%d%d", &m, &n, &k);
-    m = 1024, n = 1024, k = 1024;
+    m = MATSIZE, n = MATSIZE, k = MATSIZE;
     double *mat1, *mat2;
     mat1 = (double*)malloc(m*n*8);
     mat2 = (double*)malloc(n*k*8);

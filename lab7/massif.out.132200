@@ -1,0 +1,1704 @@
+desc: --stacks=yes
+cmd: ./fft_mpi
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=139903285
+mem_heap_B=3112108
+mem_heap_extra_B=181444
+mem_stacks_B=1800
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=299330024
+mem_heap_B=3112108
+mem_heap_extra_B=181444
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=392457373
+mem_heap_B=3112108
+mem_heap_extra_B=181444
+mem_stacks_B=2032
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=527739600
+mem_heap_B=3112108
+mem_heap_extra_B=181444
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=696609378
+mem_heap_B=3112108
+mem_heap_extra_B=181444
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=784090727
+mem_heap_B=3112108
+mem_heap_extra_B=181444
+mem_stacks_B=2208
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=919288974
+mem_heap_B=3112108
+mem_heap_extra_B=181444
+mem_stacks_B=1576
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=1074993395
+mem_heap_B=3112108
+mem_heap_extra_B=181444
+mem_stacks_B=1640
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1275842777
+mem_heap_B=3112108
+mem_heap_extra_B=181444
+mem_stacks_B=1560
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=1401373800
+mem_heap_B=3112256
+mem_heap_extra_B=181464
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1577117295
+mem_heap_B=3112256
+mem_heap_extra_B=181464
+mem_stacks_B=1560
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1690095095
+mem_heap_B=3112256
+mem_heap_extra_B=181464
+mem_stacks_B=1560
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1897045770
+mem_heap_B=3112400
+mem_heap_extra_B=181496
+mem_stacks_B=2472
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2062606209
+mem_heap_B=3112256
+mem_heap_extra_B=181464
+mem_stacks_B=1992
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2166081469
+mem_heap_B=3112256
+mem_heap_extra_B=181464
+mem_stacks_B=1416
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2290251903
+mem_heap_B=3112256
+mem_heap_extra_B=181464
+mem_stacks_B=1176
+heap_tree=detailed
+n10: 3112256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n0: 467942 in 635 places, all below massif's threshold (1.00%)
+ n5: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 66272 0x48B5C0D: ompi_comm_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEE95: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x48DDB9B: ompi_proc_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEB70: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x513FEBD: mca_base_pvar_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x514321C: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+        n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+             n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x51431ED: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 48544 in 19 places, all below massif's threshold (1.00%)
+ n2: 144192 0x52EDB3C: pmix_hash_table_init2 (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 77920 in 5 places, all below massif's threshold (1.00%)
+  n1: 66272 0x52E70DD: pmix_mca_base_var_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 66272 0x52B9AC3: pmix_init_util (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 66272 0x52B9CAB: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 66272 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 66272 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 66272 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+ n3: 143450 0x4F8258E: strdup (strdup.c:42)
+  n2: 51357 0x5321730: PMIx_Argv_append_nosize (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n2: 51249 0x5321C74: PMIx_Argv_copy (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 49147 0x52DE9EE: pmix_init_registered_attrs (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 49147 0x52BAD8F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 49147 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+       n1: 49147 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 49147 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 49147 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 49147 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 49147 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 49147 0x1094CD: main (fft_mpi.cpp:25)
+    n0: 2102 in 1 place, below massif's threshold (1.00%)
+   n0: 108 in 6 places, all below massif's threshold (1.00%)
+  n2: 48599 0x514351B: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 44557 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 44557 in 78 places, all below massif's threshold (1.00%)
+   n0: 4042 in 1 place, below massif's threshold (1.00%)
+  n0: 43494 in 403 places, all below massif's threshold (1.00%)
+ n1: 131072 0x51C6260: mca_mpool_default_alloc (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 131072 0x512C09E: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 131072 0x4A7215A: ompi_osc_rdma_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 131072 0x4A5D035: ompi_osc_base_find_available (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 131072 0x48EEDE0: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 131072 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 131072 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 131072 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 131072 0x1094CD: main (fft_mpi.cpp:25)
+ n2: 101976 0x5143486: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n2: 95760 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 73584 0x5145271: mca_base_component_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 73584 in 260 places, all below massif's threshold (1.00%)
+   n0: 22176 in 80 places, all below massif's threshold (1.00%)
+  n0: 6216 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4C71939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 69632 0x52EE647: pmix_hotel_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n1: 69632 0x52BA08F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 69632 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 69632 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 69632 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 69632 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 69632 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 69632 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 69632 0x1094CD: main (fft_mpi.cpp:25)
+ n1: 38272 0x52E72E0: register_variable (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 38272 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=2455812396
+mem_heap_B=3112592
+mem_heap_extra_B=181496
+mem_stacks_B=1880
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2662763048
+mem_heap_B=3113232
+mem_heap_extra_B=181512
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2883905563
+mem_heap_B=3114656
+mem_heap_extra_B=181512
+mem_stacks_B=1560
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=3011152475
+mem_heap_B=3116336
+mem_heap_extra_B=181544
+mem_stacks_B=1184
+heap_tree=detailed
+n10: 3116336 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n0: 472022 in 636 places, all below massif's threshold (1.00%)
+ n5: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 66272 0x48B5C0D: ompi_comm_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEE95: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x48DDB9B: ompi_proc_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEB70: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x513FEBD: mca_base_pvar_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x514321C: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+        n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+             n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x51431ED: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 48544 in 19 places, all below massif's threshold (1.00%)
+ n2: 144192 0x52EDB3C: pmix_hash_table_init2 (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 77920 in 5 places, all below massif's threshold (1.00%)
+  n1: 66272 0x52E70DD: pmix_mca_base_var_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 66272 0x52B9AC3: pmix_init_util (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 66272 0x52B9CAB: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 66272 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 66272 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 66272 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+ n3: 143450 0x4F8258E: strdup (strdup.c:42)
+  n2: 51357 0x5321730: PMIx_Argv_append_nosize (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n2: 51249 0x5321C74: PMIx_Argv_copy (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 49147 0x52DE9EE: pmix_init_registered_attrs (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 49147 0x52BAD8F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 49147 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+       n1: 49147 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 49147 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 49147 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 49147 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 49147 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 49147 0x1094CD: main (fft_mpi.cpp:25)
+    n0: 2102 in 1 place, below massif's threshold (1.00%)
+   n0: 108 in 6 places, all below massif's threshold (1.00%)
+  n2: 48599 0x514351B: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 44557 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 44557 in 78 places, all below massif's threshold (1.00%)
+   n0: 4042 in 1 place, below massif's threshold (1.00%)
+  n0: 43494 in 403 places, all below massif's threshold (1.00%)
+ n1: 131072 0x51C6260: mca_mpool_default_alloc (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 131072 0x512C09E: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 131072 0x4A7215A: ompi_osc_rdma_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 131072 0x4A5D035: ompi_osc_base_find_available (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 131072 0x48EEDE0: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 131072 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 131072 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 131072 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 131072 0x1094CD: main (fft_mpi.cpp:25)
+ n2: 101976 0x5143486: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n2: 95760 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 73584 0x5145271: mca_base_component_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 73584 in 260 places, all below massif's threshold (1.00%)
+   n0: 22176 in 80 places, all below massif's threshold (1.00%)
+  n0: 6216 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4C71939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 69632 0x52EE647: pmix_hotel_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n1: 69632 0x52BA08F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 69632 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 69632 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 69632 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 69632 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 69632 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 69632 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 69632 0x1094CD: main (fft_mpi.cpp:25)
+ n1: 38272 0x52E72E0: register_variable (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 38272 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=3138398290
+mem_heap_B=3115696
+mem_heap_extra_B=181520
+mem_stacks_B=1752
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=3297456101
+mem_heap_B=3121104
+mem_heap_extra_B=181560
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=3456513363
+mem_heap_B=3122128
+mem_heap_extra_B=181568
+mem_stacks_B=2464
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=3615570700
+mem_heap_B=3121104
+mem_heap_extra_B=181560
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=3811235512
+mem_heap_B=3149552
+mem_heap_extra_B=181584
+mem_stacks_B=1648
+heap_tree=detailed
+n10: 3149552 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n0: 505238 in 636 places, all below massif's threshold (1.00%)
+ n5: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 66272 0x48B5C0D: ompi_comm_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEE95: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x48DDB9B: ompi_proc_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEB70: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x513FEBD: mca_base_pvar_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x514321C: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+        n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+             n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x51431ED: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 48544 in 19 places, all below massif's threshold (1.00%)
+ n2: 144192 0x52EDB3C: pmix_hash_table_init2 (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 77920 in 5 places, all below massif's threshold (1.00%)
+  n1: 66272 0x52E70DD: pmix_mca_base_var_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 66272 0x52B9AC3: pmix_init_util (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 66272 0x52B9CAB: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 66272 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 66272 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 66272 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+ n3: 143450 0x4F8258E: strdup (strdup.c:42)
+  n2: 51357 0x5321730: PMIx_Argv_append_nosize (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n2: 51249 0x5321C74: PMIx_Argv_copy (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 49147 0x52DE9EE: pmix_init_registered_attrs (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 49147 0x52BAD8F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 49147 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+       n1: 49147 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 49147 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 49147 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 49147 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 49147 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 49147 0x1094CD: main (fft_mpi.cpp:25)
+    n0: 2102 in 1 place, below massif's threshold (1.00%)
+   n0: 108 in 6 places, all below massif's threshold (1.00%)
+  n2: 48599 0x514351B: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 44557 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 44557 in 78 places, all below massif's threshold (1.00%)
+   n0: 4042 in 1 place, below massif's threshold (1.00%)
+  n0: 43494 in 403 places, all below massif's threshold (1.00%)
+ n1: 131072 0x51C6260: mca_mpool_default_alloc (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 131072 0x512C09E: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 131072 0x4A7215A: ompi_osc_rdma_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 131072 0x4A5D035: ompi_osc_base_find_available (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 131072 0x48EEDE0: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 131072 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 131072 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 131072 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 131072 0x1094CD: main (fft_mpi.cpp:25)
+ n2: 101976 0x5143486: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n2: 95760 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 73584 0x5145271: mca_base_component_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 73584 in 260 places, all below massif's threshold (1.00%)
+   n0: 22176 in 80 places, all below massif's threshold (1.00%)
+  n0: 6216 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4C71939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 69632 0x52EE647: pmix_hotel_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n1: 69632 0x52BA08F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 69632 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 69632 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 69632 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 69632 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 69632 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 69632 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 69632 0x1094CD: main (fft_mpi.cpp:25)
+ n1: 38272 0x52E72E0: register_variable (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 38272 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=3938488159
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1496
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=4047486556
+mem_heap_B=3214064
+mem_heap_extra_B=181584
+mem_stacks_B=1648
+heap_tree=detailed
+n11: 3214064 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n0: 504214 in 635 places, all below massif's threshold (1.00%)
+ n5: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 66272 0x48B5C0D: ompi_comm_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEE95: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x48DDB9B: ompi_proc_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEB70: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x513FEBD: mca_base_pvar_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x514321C: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+        n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+             n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x51431ED: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 48544 in 19 places, all below massif's threshold (1.00%)
+ n2: 144192 0x52EDB3C: pmix_hash_table_init2 (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 77920 in 5 places, all below massif's threshold (1.00%)
+  n1: 66272 0x52E70DD: pmix_mca_base_var_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 66272 0x52B9AC3: pmix_init_util (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 66272 0x52B9CAB: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 66272 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 66272 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 66272 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+ n3: 143450 0x4F8258E: strdup (strdup.c:42)
+  n2: 51357 0x5321730: PMIx_Argv_append_nosize (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n2: 51249 0x5321C74: PMIx_Argv_copy (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 49147 0x52DE9EE: pmix_init_registered_attrs (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 49147 0x52BAD8F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 49147 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+       n1: 49147 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 49147 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 49147 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 49147 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 49147 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 49147 0x1094CD: main (fft_mpi.cpp:25)
+    n0: 2102 in 1 place, below massif's threshold (1.00%)
+   n0: 108 in 6 places, all below massif's threshold (1.00%)
+  n2: 48599 0x514351B: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 44557 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 44557 in 78 places, all below massif's threshold (1.00%)
+   n0: 4042 in 1 place, below massif's threshold (1.00%)
+  n0: 43494 in 403 places, all below massif's threshold (1.00%)
+ n1: 131072 0x51C6260: mca_mpool_default_alloc (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 131072 0x512C09E: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 131072 0x4A7215A: ompi_osc_rdma_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 131072 0x4A5D035: ompi_osc_base_find_available (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 131072 0x48EEDE0: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 131072 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 131072 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 131072 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 131072 0x1094CD: main (fft_mpi.cpp:25)
+ n2: 101976 0x5143486: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n2: 95760 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 73584 0x5145271: mca_base_component_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 73584 in 260 places, all below massif's threshold (1.00%)
+   n0: 22176 in 80 places, all below massif's threshold (1.00%)
+  n0: 6216 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4C71939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 69632 0x52EE647: pmix_hotel_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n1: 69632 0x52BA08F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 69632 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 69632 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 69632 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 69632 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 69632 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 69632 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 69632 0x1094CD: main (fft_mpi.cpp:25)
+ n1: 65536 0x495CAD4: ompi_coll_base_gather_intra_binomial (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+  n1: 65536 0x4988D83: ompi_coll_tuned_gather_intra_dec_fixed (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 65536 0x490CE50: PMPI_Gather (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n2: 65536 0x10A5D8: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:309)
+     n2: 65536 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+      n0: 65536 0x10998B: main (fft_mpi.cpp:126)
+      n0: 0 in 3 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 38272 0x52E72E0: register_variable (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 38272 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=4174791521
+mem_heap_B=3148528
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=4368021180
+mem_heap_B=3209968
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=4481350882
+mem_heap_B=3816176
+mem_heap_extra_B=181584
+mem_stacks_B=2000
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=4641858442
+mem_heap_B=4504304
+mem_heap_extra_B=181584
+mem_stacks_B=1648
+heap_tree=detailed
+n13: 4504304 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n1: 1048576 0x495CAD4: ompi_coll_base_gather_intra_binomial (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+  n1: 1048576 0x4988D83: ompi_coll_tuned_gather_intra_dec_fixed (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 1048576 0x490CE50: PMPI_Gather (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n2: 1048576 0x10A5D8: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:309)
+     n2: 1048576 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+      n0: 1048576 0x10998B: main (fft_mpi.cpp:126)
+      n0: 0 in 3 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 522006 in 633 places, all below massif's threshold (1.00%)
+ n5: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 66272 0x48B5C0D: ompi_comm_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEE95: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x48DDB9B: ompi_proc_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEB70: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x513FEBD: mca_base_pvar_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x514321C: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+        n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+             n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x51431ED: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 48544 in 19 places, all below massif's threshold (1.00%)
+ n2: 144192 0x52EDB3C: pmix_hash_table_init2 (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 77920 in 5 places, all below massif's threshold (1.00%)
+  n1: 66272 0x52E70DD: pmix_mca_base_var_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 66272 0x52B9AC3: pmix_init_util (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 66272 0x52B9CAB: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 66272 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 66272 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 66272 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+ n3: 143450 0x4F8258E: strdup (strdup.c:42)
+  n2: 51357 0x5321730: PMIx_Argv_append_nosize (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n2: 51249 0x5321C74: PMIx_Argv_copy (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 49147 0x52DE9EE: pmix_init_registered_attrs (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 49147 0x52BAD8F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 49147 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+       n1: 49147 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 49147 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 49147 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 49147 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 49147 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 49147 0x1094CD: main (fft_mpi.cpp:25)
+    n0: 2102 in 1 place, below massif's threshold (1.00%)
+   n0: 108 in 6 places, all below massif's threshold (1.00%)
+  n1: 48599 0x514351B: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n0: 48599 in 2 places, all below massif's threshold (1.00%)
+  n0: 43494 in 403 places, all below massif's threshold (1.00%)
+ n2: 131072 0x10A40F: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:299)
+  n2: 131072 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+   n0: 131072 0x10998B: main (fft_mpi.cpp:126)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 131072 0x10A43C: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:300)
+  n2: 131072 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+   n0: 131072 0x10998B: main (fft_mpi.cpp:126)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 131072 0x51C6260: mca_mpool_default_alloc (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 131072 0x512C09E: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 131072 0x4A7215A: ompi_osc_rdma_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 131072 0x4A5D035: ompi_osc_base_find_available (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 131072 0x48EEDE0: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 131072 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 131072 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 131072 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 131072 0x1094CD: main (fft_mpi.cpp:25)
+ n2: 101976 0x5143486: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n2: 95760 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 73584 0x5145271: mca_base_component_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 73584 in 260 places, all below massif's threshold (1.00%)
+   n0: 22176 in 80 places, all below massif's threshold (1.00%)
+  n0: 6216 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4C71939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 69632 0x52EE647: pmix_hotel_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n1: 69632 0x52BA08F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 69632 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 69632 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 69632 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 69632 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 69632 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 69632 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 69632 0x1094CD: main (fft_mpi.cpp:25)
+ n2: 65536 0x10A46B: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:301)
+  n2: 65536 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+   n0: 65536 0x10998B: main (fft_mpi.cpp:126)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=4766028882
+mem_heap_B=3455728
+mem_heap_extra_B=181576
+mem_stacks_B=1704
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=4890384321
+mem_heap_B=3455728
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=5015189424
+mem_heap_B=3455728
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=5135769945
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=5259940491
+mem_heap_B=3783408
+mem_heap_extra_B=181576
+mem_stacks_B=1704
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=5384110989
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=5518274275
+mem_heap_B=4438768
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=5642444658
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1544
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=5766931401
+mem_heap_B=8633072
+mem_heap_extra_B=185616
+mem_stacks_B=2464
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=5954760958
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=6051750101
+mem_heap_B=14138096
+mem_heap_extra_B=185616
+mem_stacks_B=1648
+heap_tree=detailed
+n9: 14138096 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8388608 0x495CAD4: ompi_coll_base_gather_intra_binomial (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+  n1: 8388608 0x4988D83: ompi_coll_tuned_gather_intra_dec_fixed (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 8388608 0x490CE50: PMPI_Gather (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n2: 8388608 0x10A5D8: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:309)
+     n2: 8388608 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+      n0: 8388608 0x10998B: main (fft_mpi.cpp:126)
+      n0: 0 in 3 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n2: 1048576 0x10A40F: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:299)
+  n2: 1048576 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+   n0: 1048576 0x10998B: main (fft_mpi.cpp:126)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 1048576 0x10A43C: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:300)
+  n2: 1048576 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+   n0: 1048576 0x10998B: main (fft_mpi.cpp:126)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 897390 in 637 places, all below massif's threshold (1.00%)
+ n2: 524288 0x10A46B: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:301)
+  n2: 524288 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+   n0: 524288 0x10998B: main (fft_mpi.cpp:126)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n0: 313632 in 23 places, all below massif's threshold (1.00%)
+ n1: 144192 0x52EDB3C: pmix_hash_table_init2 (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 144192 in 6 places, all below massif's threshold (1.00%)
+ n1: 143450 0x4F8258E: strdup (strdup.c:42)
+  n0: 143450 in 405 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=6248386172
+mem_heap_B=5749488
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=6372556631
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=6496727041
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=6682982658
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1576
+heap_tree=detailed
+n10: 3128048 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n0: 483734 in 636 places, all below massif's threshold (1.00%)
+ n5: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 66272 0x48B5C0D: ompi_comm_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEE95: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x48DDB9B: ompi_proc_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEB70: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x513FEBD: mca_base_pvar_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x514321C: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+        n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+             n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x51431ED: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 48544 in 19 places, all below massif's threshold (1.00%)
+ n2: 144192 0x52EDB3C: pmix_hash_table_init2 (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 77920 in 5 places, all below massif's threshold (1.00%)
+  n1: 66272 0x52E70DD: pmix_mca_base_var_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 66272 0x52B9AC3: pmix_init_util (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 66272 0x52B9CAB: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 66272 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 66272 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 66272 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+ n3: 143450 0x4F8258E: strdup (strdup.c:42)
+  n2: 51357 0x5321730: PMIx_Argv_append_nosize (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n2: 51249 0x5321C74: PMIx_Argv_copy (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 49147 0x52DE9EE: pmix_init_registered_attrs (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 49147 0x52BAD8F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 49147 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+       n1: 49147 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 49147 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 49147 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 49147 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 49147 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 49147 0x1094CD: main (fft_mpi.cpp:25)
+    n0: 2102 in 1 place, below massif's threshold (1.00%)
+   n0: 108 in 6 places, all below massif's threshold (1.00%)
+  n2: 48599 0x514351B: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 44557 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 44557 in 78 places, all below massif's threshold (1.00%)
+   n0: 4042 in 1 place, below massif's threshold (1.00%)
+  n0: 43494 in 403 places, all below massif's threshold (1.00%)
+ n1: 131072 0x51C6260: mca_mpool_default_alloc (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 131072 0x512C09E: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 131072 0x4A7215A: ompi_osc_rdma_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 131072 0x4A5D035: ompi_osc_base_find_available (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 131072 0x48EEDE0: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 131072 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 131072 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 131072 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 131072 0x1094CD: main (fft_mpi.cpp:25)
+ n2: 101976 0x5143486: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n2: 95760 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 73584 0x5145271: mca_base_component_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 73584 in 260 places, all below massif's threshold (1.00%)
+   n0: 22176 in 80 places, all below massif's threshold (1.00%)
+  n0: 6216 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4C71939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 69632 0x52EE647: pmix_hotel_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n1: 69632 0x52BA08F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 69632 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 69632 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 69632 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 69632 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 69632 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 69632 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 69632 0x1094CD: main (fft_mpi.cpp:25)
+ n1: 38272 0x52E72E0: register_variable (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 38272 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=6876436913
+mem_heap_B=5749488
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=7062692575
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=7248948215
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=7336429627
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=detailed
+n10: 3128048 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n0: 483734 in 636 places, all below massif's threshold (1.00%)
+ n5: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 66272 0x48B5C0D: ompi_comm_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEE95: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x48DDB9B: ompi_proc_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEB70: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x513FEBD: mca_base_pvar_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x514321C: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+        n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+             n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x51431ED: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 48544 in 19 places, all below massif's threshold (1.00%)
+ n2: 144192 0x52EDB3C: pmix_hash_table_init2 (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 77920 in 5 places, all below massif's threshold (1.00%)
+  n1: 66272 0x52E70DD: pmix_mca_base_var_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 66272 0x52B9AC3: pmix_init_util (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 66272 0x52B9CAB: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 66272 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 66272 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 66272 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+ n3: 143450 0x4F8258E: strdup (strdup.c:42)
+  n2: 51357 0x5321730: PMIx_Argv_append_nosize (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n2: 51249 0x5321C74: PMIx_Argv_copy (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 49147 0x52DE9EE: pmix_init_registered_attrs (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 49147 0x52BAD8F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 49147 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+       n1: 49147 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 49147 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 49147 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 49147 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 49147 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 49147 0x1094CD: main (fft_mpi.cpp:25)
+    n0: 2102 in 1 place, below massif's threshold (1.00%)
+   n0: 108 in 6 places, all below massif's threshold (1.00%)
+  n2: 48599 0x514351B: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 44557 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 44557 in 78 places, all below massif's threshold (1.00%)
+   n0: 4042 in 1 place, below massif's threshold (1.00%)
+  n0: 43494 in 403 places, all below massif's threshold (1.00%)
+ n1: 131072 0x51C6260: mca_mpool_default_alloc (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 131072 0x512C09E: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 131072 0x4A7215A: ompi_osc_rdma_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 131072 0x4A5D035: ompi_osc_base_find_available (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 131072 0x48EEDE0: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 131072 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 131072 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 131072 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 131072 0x1094CD: main (fft_mpi.cpp:25)
+ n2: 101976 0x5143486: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n2: 95760 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 73584 0x5145271: mca_base_component_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 73584 in 260 places, all below massif's threshold (1.00%)
+   n0: 22176 in 80 places, all below massif's threshold (1.00%)
+  n0: 6216 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4C71939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 69632 0x52EE647: pmix_hotel_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n1: 69632 0x52BA08F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 69632 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 69632 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 69632 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 69632 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 69632 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 69632 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 69632 0x1094CD: main (fft_mpi.cpp:25)
+ n1: 38272 0x52E72E0: register_variable (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 38272 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=7386047891
+mem_heap_B=25148144
+mem_heap_extra_B=185616
+mem_stacks_B=1648
+heap_tree=peak
+n7: 25148144 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16777216 0x495CAD4: ompi_coll_base_gather_intra_binomial (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+  n1: 16777216 0x4988D83: ompi_coll_tuned_gather_intra_dec_fixed (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 16777216 0x490CE50: PMPI_Gather (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n2: 16777216 0x10A5D8: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:309)
+     n2: 16777216 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+      n0: 16777216 0x10998B: main (fft_mpi.cpp:126)
+      n0: 0 in 3 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 2097152 0x10A40F: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:299)
+  n2: 2097152 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+   n0: 2097152 0x10998B: main (fft_mpi.cpp:126)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 2097152 0x10A43C: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:300)
+  n2: 2097152 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+   n0: 2097152 0x10998B: main (fft_mpi.cpp:126)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n0: 1185032 in 639 places, all below massif's threshold (1.00%)
+ n2: 1048576 0x10A46B: parallel_step(int, int, double*, double*, double*, double) (fft_mpi.cpp:301)
+  n2: 1048576 0x10A0B0: cfft2(int, double*, double*, double*, double) (fft_mpi.cpp:218)
+   n0: 1048576 0x10998B: main (fft_mpi.cpp:126)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n0: 313632 in 23 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=7473989426
+mem_heap_B=8370928
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=7571775125
+mem_heap_B=8370928
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=7659495622
+mem_heap_B=8370928
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=7748047507
+mem_heap_B=8370928
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=7835528856
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1576
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=7923010224
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=8010491580
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=8097972933
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1576
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=8185454376
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=8272935732
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=detailed
+n10: 3128048 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1629384 0x512C06F: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 1051832 0x51B7AA1: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 1051832 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 1051832 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 1051832 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 1051832 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 1051832 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 1051832 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 1051832 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 1051832 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 1051832 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 1051832 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 527544 0x51B7A54: mca_btl_tcp_component_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 527544 0x51B0F6C: mca_btl_base_select (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 527544 0x4946937: mca_bml_r2_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 527544 0x49449E3: mca_bml_base_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 527544 0x4A8F0E3: mca_pml_ob1_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 527544 0x4A8B33C: mca_pml_base_select (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 527544 0x48EEC26: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 527544 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 527544 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 527544 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 527544 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 50008 in 16 places, all below massif's threshold (1.00%)
+ n0: 483734 in 636 places, all below massif's threshold (1.00%)
+ n5: 313632 0x512C90C: opal_hash_table_init2 (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 66272 0x48B5C0D: ompi_comm_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEE95: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x48DDB9B: ompi_proc_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+   n1: 66272 0x48EEB70: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x513FEBD: mca_base_pvar_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x514321C: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+        n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+             n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n1: 66272 0x51431ED: mca_base_var_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 66272 0x5143B34: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n1: 66272 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+     n1: 66272 0x5159CEB: opal_show_help_init (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+      n1: 66272 0x5137964: opal_init_util (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+       n1: 66272 0x48EE1CC: ompi_mpi_instance_retain (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EE550: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+  n0: 48544 in 19 places, all below massif's threshold (1.00%)
+ n2: 144192 0x52EDB3C: pmix_hash_table_init2 (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 77920 in 5 places, all below massif's threshold (1.00%)
+  n1: 66272 0x52E70DD: pmix_mca_base_var_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 66272 0x52B9AC3: pmix_init_util (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 66272 0x52B9CAB: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 66272 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 66272 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 66272 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 66272 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 66272 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 66272 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n0: 66272 0x1094CD: main (fft_mpi.cpp:25)
+ n3: 143450 0x4F8258E: strdup (strdup.c:42)
+  n2: 51357 0x5321730: PMIx_Argv_append_nosize (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n2: 51249 0x5321C74: PMIx_Argv_copy (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 49147 0x52DE9EE: pmix_init_registered_attrs (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+     n1: 49147 0x52BAD8F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+      n1: 49147 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+       n1: 49147 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 49147 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n1: 49147 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+          n1: 49147 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+           n1: 49147 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+            n0: 49147 0x1094CD: main (fft_mpi.cpp:25)
+    n0: 2102 in 1 place, below massif's threshold (1.00%)
+   n0: 108 in 6 places, all below massif's threshold (1.00%)
+  n2: 48599 0x514351B: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 44557 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 44557 in 78 places, all below massif's threshold (1.00%)
+   n0: 4042 in 1 place, below massif's threshold (1.00%)
+  n0: 43494 in 403 places, all below massif's threshold (1.00%)
+ n1: 131072 0x51C6260: mca_mpool_default_alloc (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n1: 131072 0x512C09E: opal_free_list_grow_st (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 131072 0x4A7215A: ompi_osc_rdma_component_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+    n1: 131072 0x4A5D035: ompi_osc_base_find_available (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 131072 0x48EEDE0: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 131072 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 131072 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 131072 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 131072 0x1094CD: main (fft_mpi.cpp:25)
+ n2: 101976 0x5143486: register_variable (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+  n2: 95760 0x51451C0: mca_base_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+   n1: 73584 0x5145271: mca_base_component_var_register (in /usr/local/openmpi/lib/libopen-pal.so.80.0.2)
+    n0: 73584 in 260 places, all below massif's threshold (1.00%)
+   n0: 22176 in 80 places, all below massif's threshold (1.00%)
+  n0: 6216 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4C71939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 69632 0x52EE647: pmix_hotel_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n1: 69632 0x52BA08F: pmix_rte_init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+   n1: 69632 0x5260DA0: PMIx_Init (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+    n1: 69632 0x48E57D3: ompi_rte_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+     n1: 69632 0x48EE669: ompi_mpi_instance_init_common (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+      n1: 69632 0x48EF3E7: ompi_mpi_instance_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+       n1: 69632 0x48E1B6E: ompi_mpi_init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+        n1: 69632 0x4917521: PMPI_Init (in /usr/local/openmpi/lib/libmpi.so.40.40.2)
+         n0: 69632 0x1094CD: main (fft_mpi.cpp:25)
+ n1: 38272 0x52E72E0: register_variable (in /usr/local/openmpi/lib/libpmix.so.2.9.4)
+  n0: 38272 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=8360417086
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1584
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=8447898441
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1576
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=8535379797
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1544
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=8624955864
+mem_heap_B=8370928
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=8714082813
+mem_heap_B=8370928
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=8804641179
+mem_heap_B=8370928
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=8894939655
+mem_heap_B=8370928
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=8983088082
+mem_heap_B=8370928
+mem_heap_extra_B=181576
+mem_stacks_B=1184
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=9070569510
+mem_heap_B=3128048
+mem_heap_extra_B=181552
+mem_stacks_B=1624
+heap_tree=empty
